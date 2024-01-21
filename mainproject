@@ -1,0 +1,84 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Project</title>
+    <style>
+        body{
+            background-color: aliceblue;
+        }
+        table{
+            padding-top: 15px;
+            padding-bottom: 15px;
+            padding-left: 25px;
+            padding-right: 25px;
+            background-color: yellow;
+           
+        }
+        h1{
+            font-size: medium;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1><u>KK UNIVERSITY</u></h1>
+    <form action="Details_entry.php" method="post">
+        <table align="center">
+            <tr>
+                <td><label>Student Name:</label></td>
+                <td><input type="text" name="name" placeholder="Enter Name"></td>
+            </tr>
+            <tr>
+                <td><label>Student ID:</label></td>
+                <td><input type="text" name="id" placeholder="Enter ID"></td>
+            </tr>
+            <tr>
+                <td><label>Course:</label>
+                <td><input type="text" name="course" placeholder="Enter Course"></td>
+            </tr>
+            <tr>
+                <td><label>Department:</label></td>
+                <td><input type="text" name="department" placeholder="Enter Dept"></td>
+            </tr>
+            <tr>
+                <td><label>ContactNumber:</label></td>
+                <td><input type="number" name="contactnumber"placeholder="Enter Number"></td>
+            </tr>
+            <tr>
+                <td><label>Email:</label></td>
+                <td><input type="email" name="email" placeholder="Enter Mail"></td>
+            </tr>
+            <tr>
+                <td><label>Date of Birth:</label></td>
+                <td><input type="date" name="dob"></td>
+            </tr>
+            <tr>
+                <td><label>Gender:</label></td>
+                <td><input type="radio" name="gender">Male
+                <input type="radio" name="gender">Female</td>
+            </tr>
+            <tr>
+                <td><label>Parent/Guardian Name:</label></td>
+                <td><input type="text" name="parent"></td>
+                <tr>
+                    <td>Academic Year:</td>
+                    <td><select name="year">
+                        <option value=""></option>
+                        <option value="1">I</option>
+                        <option value="2">II</option>
+                        <option value="3">III</option>
+                        <option value="4">IV</option></select></td>
+                </tr>
+                <tr>
+                    <td><label>GPA:</label></td>
+                    <td><input type="number" name="gpa"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center"><input type="submit" name="save" value="Submit">
+                    </td>
+                </tr>
+        </table>
+    </form>
+</body>
+</html>
